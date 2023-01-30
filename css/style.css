@@ -94,7 +94,7 @@ main {
 .main-corp {
     width: 1000px;
     height: 3000px;
-    margin: 100px auto;
+    margin: 100px auto 0px;
     background-color: yellow;
 }
 
@@ -169,4 +169,52 @@ main {
     width: 100%;
     background-color: cornflowerblue;
     margin-top: 50px;
+}
+
+.brands-container{
+    width: 100vw;
+    height: 500px;
+    background-color: lawngreen;
+    display: flex;
+}
+
+.logo-img{
+    height: 250px;
+    width: 50%;
+    background-color: darkgreen;
+    display: flex;
+    border: 1px solid black;
+}
+
+.logo-container{
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo-text{
+    width: 33%;
+    height: 500px;
+    background-color: blue;
+}
+
+.free-trial{
+    background-color: chocolate;
+    width: 100%;
+    height: 300px;
+    padding: 50px 0px;
+}
+
+.free-trial div{
+    background-color: blue;
+    height: 200px;
+    width: 1000px;
+    margin: auto;
+}
+
+.questions{
+    height: 500px;
+    width: 1000px;
+    background-color: pink;
+    margin: 50px auto;
 }
