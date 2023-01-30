@@ -97,3 +97,76 @@ main {
     margin: 100px auto;
     background-color: yellow;
 }
+
+.big-title {
+    width: 100%;
+    height: 100px;
+    background-color: orange;
+}
+
+.column-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.column{
+    width: 30%;
+    height: 600px;
+    background-color: blueviolet;
+}
+
+.team {
+    width: 100%;
+    height: 250px;
+    background-color: cornsilk;
+    margin-top: 25px;
+}
+
+.third-box{
+    width: 100%;
+    height: 400px;
+    background-color: darkblue;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin: 25px 0px;
+}
+
+
+.cards-container {
+    width: 100%;
+    height: 950px;
+    background-color: crimson;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    height: 450px;
+    width: 30%;
+    background-color: brown;
+}
+
+.card-img{
+    height: 200px;
+    width: 80%;
+    background-color: green;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.card-text{
+    height: 200px;
+    width: 80%;
+    background-color: red;
+    margin-left: 30px;
+}
+
+.last-mainpart{
+    height: 400px;
+    width: 100%;
+    background-color: cornflowerblue;
+    margin-top: 50px;
+}
