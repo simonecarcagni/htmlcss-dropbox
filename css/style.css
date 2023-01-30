@@ -218,3 +218,33 @@ main {
     background-color: pink;
     margin: 50px auto;
 }
+
+footer{
+    height: 600px;
+    background-color: black;
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.footer-container {
+    width: 1170px;
+    height: 300px;
+    background-color: orchid;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links {
+    height: 300px;
+    width: 20%;
+    background-color: brown;
+    border: 1px solid red;
+}
+
+.language{
+    height: 100px;
+    width: 100px;
+    margin: 50px 20%;
+    background-color: white;
+}
