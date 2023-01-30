@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: red;
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+
+.left-header .case{
+    height: 50px;
+    width: 75px;
+    margin-right: 25px;
+}
+
+.logo {
+    background-color: blue;
+}
+
+.link {
+    background-color: purple;
+}
+
+.left-header{
+    width: 50%;
+    height: 100px;
+    display: flex;  
+    align-items: center;
+}
+
+.right-header {
+    width: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.right-header .case {
+    height: 50px;
+    width: 75px;
+    margin-left: 25px;
+}
+
+.button {
+    background-color: green;
+}
