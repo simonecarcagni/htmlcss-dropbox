@@ -4,116 +4,191 @@
     box-sizing: border-box;
 }
 
-header{
-    background-color: red;
-    height: 100px;
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    background-color: white;
+    height: 70px;
     width: 100%;
     display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
-.left-header .case{
-    height: 50px;
-    width: 75px;
-    margin-right: 25px;
+ul {
+    list-style: none;
 }
 
-.logo {
-    background-color: blue;
+.right-header li {
+    margin: 0px 20px;
 }
 
-.link {
-    background-color: purple;
+li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
 }
 
-.left-header{
+.left-header {
     width: 50%;
-    height: 100px;
-    display: flex;  
+    display: flex;
     align-items: center;
 }
 
 .right-header {
     width: 50%;
-    height: 100px;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
-}
-
-
-.right-header .case {
-    height: 50px;
-    width: 75px;
-    margin-left: 25px;
+    justify-content: end;
 }
 
 .button {
-    background-color: green;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
 }
 
-main {
-    background-color: aqua;
-    width: 100vw;
-    height: 5000px;
+.btn-blue {
+    background-color: blue;
+    color: white;
 }
 
 .jumbotron {
-    background-color: grey;
-    width: 100%;
-    height: 500px;
-    padding-top: 25px;
+    background-color: rgb(180, 208, 231);
+    padding: 100px 0px 0px;
+    max-height: 700px;
 }
 
-.top-jumbotron {
+.jumbotron-container {
     width: 1170px;
-    height: 150px;
-    background-color: black;
-    margin: 0px auto 25px;
+    margin: auto;
+}
+
+.jumbotron-container h1 {
+    font-size: 75px;
 }
 
 .bottom-jumbotron {
-    width: 1170px;
-    height: 300px;
-    background-color: darkblue;
-    margin: auto;
     display: flex;
 }
 
 .text {
     width: 30%;
-    height: 250px;
-    background-color: green;
 }
 
-.img{
+.img {
     width: 70%;
-    height: 350px;
-    background-color: coral;
 }
 
-.main-corp {
-    width: 1000px;
-    height: 3000px;
-    margin: 100px auto 0px;
-    background-color: yellow;
+.text * {
+    margin: 20px 0px;
 }
 
-.big-title {
+.img img {
     width: 100%;
-    height: 100px;
-    background-color: orange;
 }
 
-.column-container{
+a i {
+    font-size: 50px;
+    color: black;
+}
+
+.main-part {
+    width: 1000px;
+    margin: auto;
+    padding: 100px 0px 0px;
+}
+
+.main-part h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.title {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 200;
+    margin-right: 5px;
+}
+
+.crl-blue {
+    color: blue;
+}
+
+.crl-grey {
+    color: grey;
+}
+
+.column-container {
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
 }
 
-.column{
+.column {
     width: 30%;
-    height: 600px;
-    background-color: blueviolet;
+    border: 1px solid grey;
+}
+
+.column h4 {
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 200;
+    border-bottom: 1px solid grey;
+}
+
+.indent h2 {
+    font-size: 30px;
+}
+
+.indent {
+    padding: 25px;
+}
+
+.price {
+    font-weight: 800;
+}
+
+.margin-rt {
+    margin-right: 5px;
+}
+
+.date {
+    margin-top: 5px;
+    color: grey;
+}
+
+.options li {
+    margin: 35px 0px;
+}
+
+.last {
+    margin-top: 60px;
+}
+
+.underline {
+    border-bottom: 1px solid grey;
+    padding-bottom: 50px;
+}
+
+.direct-link {
+    margin: 50px 0px 100px;
+}
+
+.summary li {
+    margin: 35px 0px;
+}
+
+.summary li i {
+    color: blue;
+}
+
+.column button {
+    width: 100%;
 }
 
 .team {
