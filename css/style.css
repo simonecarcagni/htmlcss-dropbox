@@ -8,6 +8,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/* Header CSS*/
 nav {
     background-color: white;
     height: 70px;
@@ -59,6 +60,8 @@ nav li a {
     background-color: blue;
     color: white;
 }
+
+/*Main CSS*/
 
 .jumbotron {
     background-color: rgb(180, 208, 231);
@@ -385,6 +388,7 @@ a i {
     right: 10%;
 }
 
+/*Footer CSS*/
 footer {
     background-color: black;
     width: 100%;
