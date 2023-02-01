@@ -17,6 +17,8 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1;
+    box-shadow: 0px 1px 1px lightgray;
 }
 
 ul {
@@ -35,6 +37,7 @@ nav li a {
 
 nav li a:hover{
     border-bottom: 1px solid black;
+    z-index: 2;
 }
 
 .left-header li {
@@ -59,6 +62,10 @@ nav li a:hover{
     padding: 10px 20px;
     border: none;
     font-size: 16px;
+}
+
+.btn-blue:hover{
+    background-color: rgba(0, 0, 255, 0.7);
 }
 
 .btn-blue {
@@ -246,6 +253,10 @@ a i {
     border: 1px solid black;
 }
 
+.gr-btn:hover{
+    background-color: rgba(0, 0, 0, 0.1 );
+}
+
 .cards-container {
     display: flex;
     flex-wrap: wrap;
@@ -281,10 +292,14 @@ a i {
     flex-wrap: wrap;
 }
 
-.brands>img {
+.brands.wrap>div{
     width: 50%;
     height: 50%;
     padding: 10%;
+}
+
+.invert {
+    filter: invert(100%);
 }
 
 .brands {
@@ -322,17 +337,16 @@ a i {
 }
 
 .bg-yellow {
-    background-color: yellow;
+    background-color: rgb(255, 216, 48);
 }
 
-.florida {
-    height: 50%;
-    width: 50%;
-}
-
-.florida img{
+.regulation img{
     width: 100%;
-    padding: 45% 20%;
+}
+
+.bg-cyan.florida img {
+    margin: 40% 0;
+    height: 20%;
 }
 
 .img-brands img {
