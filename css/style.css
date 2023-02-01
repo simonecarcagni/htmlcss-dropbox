@@ -30,11 +30,16 @@ ul {
 nav li a {
     text-decoration: none;
     color: black;
-    padding: 5px;
+    padding: 5px 5px 24px;
+}
+
+nav li a:hover{
+    border-bottom: 1px solid black;
 }
 
 .left-header li {
     margin: 0px 20px;
+    
 }
 
 .left-header {
@@ -165,7 +170,11 @@ a i {
 }
 
 .indent {
-    padding: 25px;
+    padding: 20px;
+}
+
+.tx-indent{
+    text-indent: -11px;
 }
 
 .price {
@@ -182,7 +191,7 @@ a i {
 }
 
 .options li {
-    margin: 35px 0px;
+    margin: 35px 15px;
 }
 
 .last {
@@ -199,7 +208,7 @@ a i {
 }
 
 .summary li {
-    margin: 35px 0px;
+    margin: 35px 15px;
 }
 
 .summary li i {
@@ -283,8 +292,13 @@ a i {
     height: calc(100vw / 3);
 }
 
+.grayscale{
+    filter: grayscale(10%)
+}
+
 .bg-green {
     background-color: rgb(162, 211, 155);
+    border: 15px solid rgb(209, 233, 205);
 }
 
 .bg-brown {
@@ -314,10 +328,11 @@ a i {
 .florida {
     height: 50%;
     width: 50%;
-    background-image: url(./img/university_of_florida.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 60%;
+}
+
+.florida img{
+    width: 100%;
+    padding: 45% 20%;
 }
 
 .img-brands img {
@@ -346,6 +361,7 @@ a i {
 
 .middle {
     overflow: scroll;
+    background-color: rgb(245, 245, 245);
 }
 
 .seventh {
@@ -367,14 +383,14 @@ a i {
     border: none;
 }
 
+.eighth{
+    height: 500px;
+}
+
 .eighth li {
     position: relative;
     padding: 50px 0px;
     border-bottom: 1px solid grey;
-}
-
-.eighth ul {
-    border-top: 1px solid grey;
 }
 
 .eighth h2 {
@@ -382,10 +398,40 @@ a i {
     margin-bottom: 50px;
 }
 
-.eighth li i {
-    position: absolute;
-    top: 40%;
-    right: 10%;
+.showed{
+    margin: 50px 0px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+}
+
+.eighth .showed:hover .hidden {
+    display: block;
+}
+
+.eighth .showed:hover .icon-showed{
+    display: none;
+}
+
+.eighth .showed:hover .icon-hidden{
+    display: inline-block;
+}
+
+.hidden {
+    display: none;
+    padding: 40px 0px 0px;
+}
+
+.br-top{
+    border-top: 1px solid black;
+    padding-top: 50px;
+}
+
+.showed i{
+    padding-left: 300px;
+}
+
+.fa-solid.fa-chevron-up.icon-hidden {
+    display: none;
 }
 
 /*Footer CSS*/
